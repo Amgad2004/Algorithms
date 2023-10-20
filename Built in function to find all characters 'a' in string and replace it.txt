@@ -1,0 +1,7 @@
+string s="aplmkoaa"
+replace(s.begin(),s.end(),'a','k');
+cout<<s<<endl; // s="kplmkokk"
+
+
+الاصل
+replace(المكان,size,القيمه اللى عاوز تبدل ليها)

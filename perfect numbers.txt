@@ -1,0 +1,23 @@
+عدد الارقام 
+ال -> perfect 
+م بين رقمين
+
+
+
+
+int x,y,counter=0;
+    cin>>x>>y;
+    for(int i=x;i<=y;i++)
+    {
+        int u =1;
+        int sum =0;
+        while(u<i)
+        {
+            if(i%u==0)
+                sum+=u;
+            u++;
+        }
+        if(sum==i)
+            counter++;
+    }
+    cout<<counter<<"\n";

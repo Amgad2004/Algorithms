@@ -1,0 +1,13 @@
+int x;
+    cin>>x;
+    int a[x];
+    arr(x)
+    for(int i=i;i<x;i++)
+    {
+        for(int j=i;j<x;j++)
+        {
+            if(a[j]<a[i])
+                swap(a[i],a[j]);
+        }
+    }
+   arro(x)

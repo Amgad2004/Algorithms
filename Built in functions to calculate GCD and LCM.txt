@@ -1,0 +1,4 @@
+library => #include <numeric>
+
+gcd => __gcd(x,y)
+lcm => std::lcm(x,y)

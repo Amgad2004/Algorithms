@@ -1,0 +1,10 @@
+To get max element in array of intergers
+int Max = *max_element(arrat,araary+size)
+To get max element in string
+int Max = *max_element(arrat.begin(),array.end())
+________________________________________________
+To get max element position in array of intergers
+int Max = max_element(arrat,araary+size) - size
+To get max element posititon in string
+int Max = max_element(arrat.begin(),array.end())-array.begin()
+

@@ -1,0 +1,11 @@
+عدد الارقام المختلفه اللى مجموعها يساوى رقم معين
+
+مثال :
+عدد الارقام المختلفه اللى مجموعها يساوى 15
+هم 5
+ number = 15
+result = 5
+    long long number;
+    cin>>number;
+    long long result=(-1+sqrt(1+(8*n)))/2;
+    cout<<result;

@@ -1,0 +1,10 @@
+int x,y;
+cin>>x>>y;
+int sum = 0;
+for(int i=x;i>=1;i--)
+{
+if(sum + i <= y)
+{sum+=i;
+cout<<i<<" ";
+}
+}

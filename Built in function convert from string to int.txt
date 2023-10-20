@@ -1,0 +1,7 @@
+convert from string to int
+string s="159";
+int number = stoi(s);
+_____________________
+convert from number to string
+int number = 159;
+string s = to_string(number);

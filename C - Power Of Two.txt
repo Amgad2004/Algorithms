@@ -1,0 +1,18 @@
+مجموع ارقام الاس لرقم معين لما نفككه ل اتنانات اسم زى كدا
+N = 2pow(a) + 2pow(b) + 2pow(c)+ .... .
+بنجيب مجموع a+b+c
+
+
+
+long long n, sum = 0;
+    cin >> n;
+    int i = 0;
+    while (n > 0) {
+        if (n % 2 == 1) {
+            sum += i;
+        }
+        n /= 2;
+        i++;
+    }
+    cout << sum << endl;
+    return ;
